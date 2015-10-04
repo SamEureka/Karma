@@ -1,0 +1,62 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 12288 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2673), pid=31144, tid=139842984695552
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_45-b14) (build 1.8.0_45-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.45-b02 mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f2fd1561800):  JavaThread "Thread-4406" [_thread_new, id=3626, stack(0x00007f2fbb5d5000,0x00007f2fbb6d6000)]
+
+Stack: [0x00007f2fbb5d5000,0x00007f2fbb6d6000],  sp=0x00007f2fbb6d4820,  free space=1022k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xaac99a]  VMError::report_and_die()+0x2ba
+V  [libjvm.so+0x4f333b]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*)+0x8b
+V  [libjvm.so+0x90e7c3]  os::Linux::commit_memory_impl(char*, unsigned long, bool)+0x103
+V  [libjvm.so+0x90e88c]  os::pd_commit_memory(char*, unsigned long, bool)+0xc
+V  [libjvm.so+0x90762a]  os::commit_memory(char*, unsigned long, bool)+0x2a
+V  [libjvm.so+0x90c87f]  os::pd_create_stack_guard_pages(char*, unsigned long)+0x7f
+V  [libjvm.so+0xa52a4e]  JavaThread::create_stack_guard_pages()+0x5e
+V  [libjvm.so+0xa5c8b4]  JavaThread::run()+0x34
+V  [libjvm.so+0x910de8]  java_start(Thread*)+0x108
+C  [libpthread.so.0+0x8182]  start_thread+0xc2
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x00007f2fc0c88000 JavaThread "Thread-4409" [_thread_new, id=3629, stack(0x00007f2fbaece000,0x00007f2fbafcf000)]
+  0x00007f2fd155f800 JavaThread "Thread-4408" [_thread_new, id=3628, stack(0x00007f2fbbad8000,0x00007f2fbbbd9000)]
+  0x00007f2fd155f000 JavaThread "Thread-4407" [_thread_new, id=3627, stack(0x00007f2fbb0d0000,0x00007f2fbb1d1000)]
+=>0x00007f2fd1561800 JavaThread "Thread-4406" [_thread_new, id=3626, stack(0x00007f2fbb5d5000,0x00007f2fbb6d6000)]
+  0x00007f2fd2854000 JavaThread "Chunk I/O Executor Thread-1" daemon [_thread_blocked, id=31230, stack(0x00007f2fbafcf000,0x00007f2fbb0d0000)]
+  0x00007f2fd2828000 JavaThread "File IO Thread" [_thread_in_native, id=31209, stack(0x00007f2fbbbd9000,0x00007f2fbbcda000)]
+  0x00007f2fc8fae800 JavaThread "Netty IO #1" daemon [_thread_in_native, id=31205, stack(0x00007f2fbf5b7000,0x00007f2fbf6b8000)]
+  0x00007f2fc0122000 JavaThread "ic2-poolthread-2" daemon [_thread_blocked, id=31204, stack(0x00007f2fbc4da000,0x00007f2fbc5db000)]
+  0x00007f2fc0045800 JavaThread "PR RoutingThread #3" daemon [_thread_blocked, id=31203, stack(0x00007f2fbc7db000,0x00007f2fbc8dc000)]
+  0x00007f2fc0044800 JavaThread "PR RoutingThread #2" daemon [_thread_blocked, id=31202, stack(0x00007f2fbccdc000,0x00007f2fbcddd000)]
+  0x00007f2fc0043800 JavaThread "PR RoutingThread #1" daemon [_thread_blocked, id=31201, stack(0x00007f2fc5cb1000,0x00007f2fc5db2000)]
+  0x00007f2fc0042800 JavaThread "PR RoutingThread #0" daemon [_thread_blocked, id=31200, stack(0x00007f2fbcddd000,0x00007f2fbcede000)]
+  0x00007f2fc0998800 JavaThread "Netty IO #0" daemon [_thread_in_native, id=31188, stack(0x00007f2fbf6b8000,0x00007f2fbf7b9000)]
+  0x00007f2fd082d000 JavaThread "ic2-poolthread-1" daemon [_thread_blocked, id=31178, stack(0x00007f2fc59b0000,0x00007f2fc5ab1000)]
+  0x00007f2fd3e98800 JavaThread "Immibis Core background task" daemon [_thread_blocked, id=31165, stack(0x00007f2fc557f000,0x00007f2fc5680000)]
+  0x00007f2fd0001000 JavaThread "Server console handler" daemon [_thread_in_native, id=31160, stack(0x00007f2fc5db2000,0x00007f2fc5eb3000)]
+  0x00007f2ff4009800 JavaThread "DestroyJavaVM" [

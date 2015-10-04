@@ -1,0 +1,15 @@
+{
+	"_name": "creeperspecies.MysteryCreeper",
+	"drops": [ ],
+	"stats": [
+		{
+			"function": "all",
+			"functions": [
+				{
+					"function": "name",
+					"value": "Chaotic Creeper"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"_name": "Silverfish",
+	"drops": [
+		{
+			"function": "all",
+			"functions": [
+				{
+					"function": "spawn",
+					"id": "Silverfish",
+					"count": "0.05",
+					"stats": [
+						{
+							"function": "name",
+							"value": "Bane of Kornyx"
+						},
+						{
+							"function": "modifier",
+							"attribute": "generic.maxHealth",
+							"value": 1,
+							"operator": 1
+						}
+					]
+				}
+			]
+		}
+	],
+	"stats": [ ]
+}

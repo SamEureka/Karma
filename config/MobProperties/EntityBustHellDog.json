@@ -1,0 +1,18 @@
+{
+	"_name": "EntityBustHellDog",
+	"drops": [ ],
+	"stats": [
+		{
+			"function": "modifier",
+			"attribute": "generic.maxHealth",
+			"value": 20,
+			"override": true
+		},
+		{
+			"function": "modifier",
+			"attribute": "generic.attackDamage",
+			"value": 4,
+			"override": true
+		}
+	]
+}

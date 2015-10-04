@@ -1,0 +1,1239 @@
+<!--
+This is the user configurable SAG Mill recipe file. This file will not be modified or removed by EnderIO.
+
+Adding new Recipes:
+For details of how to add a new recipe please see the documentation at the top of SAGMillRecipes_Core.xml.
+
+Removing Recipes:
+To disable all recipes within a group, in this example Forestry, include the following in this file:
+
+<recipeGroup name="Forestry" enabled="false"/>
+
+To disable individual recipes, simply provide an invalid recipe for them:
+
+<recipeGroup name="Applied Energistics">
+  <recipe name="CertusQuartzOre"/>
+</recipeGroup>
+
+To change an existing recipe, just add the recipe to this file using the same recipe group and recipe name as
+found in the core file.
+ 
+-->
+
+<SAGMillRecipes>
+	<dumpRegistery oreDictionary="true" modObjects="true" />
+	
+<!-- Disables all recipes in the group 'Vanilla'
+<recipeGroup name="Vanilla" enabled="false"/> 
+-->
+
+<!-- Uncomment this block to change the default TE obsidian -> dust recipe to the railcraft recipe.  
+  <recipeGroup name="Thermal Expansion">
+  
+    <recipe name="Obsidian" energyCost="400">
+      <input>
+        <itemStack itemID="49" />
+      </input>      
+      <output>
+        <itemStack modID="Railcraft" itemName="tile.railcraft.cube" itemMeta="4" number="1" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.15" />
+      </output>
+      <output>
+        <itemStack oreDictionary="dustObsidian" number="1" chance="0.025" />
+      </output>
+    </recipe>
+    
+</recipeGroup> 
+-->
+
+<!-- Disables the glass recipes in the group 'Vanilla' 
+<recipeGroup name="Vanilla"> 
+  <recipe name="Glass"/> 
+</recipeGroup>
+-->
+
+
+<!-- Modify a core recipe defination, in this case, make glass give diamonds. 
+<recipeGroup name="Vanilla">
+  <recipe name="Glass" energyCost="120"> 
+      <input>
+        <itemStack itemID="20" />
+      </input>
+      <output>
+        <itemStack itemID="264" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+<!-- Adding a new recipe to a new group 
+<recipeGroup name="CrazyPantsGroup">
+  <recipe name="SolarToGlass" energyCost="120"> 
+      <input>
+        <itemStack modID="EnderIO" itemName="enderIO:blockSolarPanel"/>
+      </input>
+      <output>
+        <itemStack itemID="20" />
+      </output>
+    </recipe>
+</recipeGroup>
+-->
+
+	<recipeGroup name="ChaoticCraftGroup">
+
+		<!-- Metals -->
+		<recipe name="ChaoticOre" energyCost="400">
+			<input>
+				<itemStack oreDictionary="orechaotic_ore" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustchaotic_ore" number="2" />
+			</output>
+			<output>
+				<itemStack oreDictionary="dustchaotic_ore" number="2" chance="0.25" />
+			</output>
+		</recipe>
+	</recipeGroup>
+
+	<recipeGroup name="Vanilla">
+		<recipe name="GlowStone" energyCost="240">
+			<input>      
+				<itemStack modID="minecraft" itemName="glowstone" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="4"/>
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="1" chance="0.25"/>        
+			</output>
+		</recipe>
+
+		<recipe name="DiamondOre" energyCost="300">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_ore" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="2"/>
+				<itemStack modID="minecraft" itemName="diamond" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+
+		<recipe name="Quartz Ore" energyCost="720">
+			<input>
+				<itemStack modID="minecraft" itemName="quartz_ore" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="quartz" number="4"/>
+				<itemStack oreDictionary="dustCertusQuartz" chance="0.05" />
+			</output>
+		</recipe>
+
+		<recipe name="Block of Quartz" energyCost="240">
+			<input>
+				<itemStack modID="minecraft" itemName="quartz_block" itemMeta="*"/>
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="quartz" number="4"/>
+			</output>
+		</recipe>
+
+		<recipe name="Quartz Stairs" energyCost="120">
+			<input>
+				<itemStack modID="minecraft" itemName="quartz_stairs"/>
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="quartz" number="6"/>
+			</output>
+		</recipe>
+
+		<recipe name="Quartz Slab" energyCost="120">
+			<input>
+				<itemStack modID="minecraft" itemName="stone_slab" itemMeta="7" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="quartz" number="2"/>
+			</output>
+		</recipe>
+
+		<recipe name="StainedHardenedClayBlock" energyCost="240">
+			<input>
+				<itemStack modID="minecraft" itemName="stained_hardened_clay" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="clay_ball" number="2" />
+				<itemStack modID="minecraft" itemName="clay_ball" number="1" chance="0.1" />
+				<itemStack modID="EnderIO" itemName="itemMaterial" number="2" itemMeta="0" chance="0.8" />
+			</output>
+		</recipe>
+		
+		<recipe name="HardenedClayBlock" energyCost="240">
+			<input>
+				<itemStack modID="minecraft" itemName="hardened_clay" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="clay_ball" number="2" />
+				<itemStack modID="minecraft" itemName="clay_ball" number="1" chance="0.1" />
+				<itemStack modID="EnderIO" itemName="itemMaterial" number="2" itemMeta="0" chance="0.8" />
+			</output>
+		</recipe>
+		<recipe name="DiamondDust" energyCost="240">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="chaoticcraft" itemName="item.diamond_dust" number="1" />
+			</output>
+		</recipe>
+		<recipe name="EmeraldDust" energyCost="240">
+			<input>
+				<itemStack modID="minecraft" itemName="emerald" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="chaoticcraft" itemName="item.emerald_dust" number="1" />
+			</output>
+		</recipe>
+    <recipe name="Carpet" energyCost="120">
+      <input>
+        <itemStack modID="minecraft" itemName="carpet" itemMeta="*"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="string" number="2"/>
+        <itemStack modID="minecraft" itemName="string" number="1" chance="0.1"/>
+      </output>
+    </recipe>
+
+
+  </recipeGroup>
+
+	<recipeGroup name="Nether Ores" enabled="true">
+		<recipe name="Nether Coal" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherCoal" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="coal" number="4"/>
+				<itemStack modID="minecraft" itemName="coal" number="1" chance="0.10"/>
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Diamond" energyCost="450">
+			<input>
+				<itemStack oreDictionary="oreNetherDiamond" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="5"/>
+				<itemStack modID="minecraft" itemName="diamond" number="1" chance="0.10"/>
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Gold" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherGold" />
+			</input>
+			<output>
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="2" number="4" />
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="2" number="1" chance="0.10"/>
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Iron" energyCost="400">
+			<input>
+				<itemStack oreDictionary="oreNetherIron" />
+			</input>
+			<output>
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="1" number="4" />
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="4" number="2" chance="0.05" />
+				<itemStack oreDictionary="dustNickel" number="2" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Lapis" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherLapis" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="24" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Redstone" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherRedstone" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="redstone" number="21"/>
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Copper" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherCopper" />
+			</input>
+			<output>
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="3" number="4" />
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="2" chance="0.125" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Tin" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherTin" />
+			</input>
+			<output>
+				<itemStack modID="EnderIO" itemName="itemPowderIngot" itemMeta="4" number="4" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Emerald" energyCost="450">
+			<input>
+				<itemStack oreDictionary="oreNetherEmerald" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="emerald" number="5"/>
+				<itemStack modID="minecraft" itemName="emerald" number="1" chance="0.10"/>
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Silver" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherSilver" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustSilver" number="4" />
+				<itemStack oreDictionary="dustLead" number="2" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Lead" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherLead" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustLead" number="4" />
+				<itemStack oreDictionary="dustSilver" number="2" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Uranium" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherUranium" />
+			</input>
+			<output>
+				<itemStack oreDictionary="crushedUranium" number="4" />
+				<itemStack oreDictionary="crushedUranium" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Ruby" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherRuby" />
+			</input>
+			<output>
+				<itemStack oreDictionary="gemRuby" number="5" />
+				<itemStack oreDictionary="gemRuby" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Peridot" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherPeridot" />
+			</input>
+			<output>
+				<itemStack oreDictionary="gemPeridot" number="5" />
+				<itemStack oreDictionary="gemPeridot" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Sapphire" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherSapphire" />
+			</input>
+			<output>
+				<itemStack oreDictionary="gemSapphire" number="5" />
+				<itemStack oreDictionary="gemSapphire" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Platinum" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherPlatinum" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustPlatinum" number="4" />
+				<itemStack oreDictionary="dustPlatinum" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Ferrous" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherNickel" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustNickel" number="4" />
+				<itemStack oreDictionary="dustPlatinum" number="2" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<!--<recipe name="Nether Pig Iron" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherPigIron" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustSteel" number="4" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>-->
+		<recipe name="Nether Osmium" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherOsmium" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustOsmium" number="4" />
+				<itemStack oreDictionary="dustOsmium" number="2" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Sulfur" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherSulfur" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustSulfur" number="24" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Mithril" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherMithril" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustMithril" number="4" />
+				<itemStack oreDictionary="dustMithril" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Amber" energyCost="360">
+			<input>
+				<itemStack oreDictionary="oreNetherAmber" />
+			</input>
+			<output>
+				<itemStack oreDictionary="gemAmber" number="5" />
+				<itemStack oreDictionary="gemAmber" number="1" chance="0.10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Salt" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherSalt" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustSalt" number="12" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+		<recipe name="Nether Saltpeter" energyCost="320">
+			<input>
+				<itemStack oreDictionary="oreNetherSaltpeter" />
+			</input>
+			<output>
+				<itemStack oreDictionary="dustSaltpeter" number="10" />
+				<itemStack modID="minecraft" itemName="netherrack" number="1" chance="0.25"/>
+			</output>
+		</recipe>
+
+	</recipeGroup>
+
+  <recipeGroup name="MineFactoryReloaded">
+
+    <!-- Metals -->
+    <recipe name="Records" energyCost="400">
+      <input>
+        <itemStack oreDictionary="record" />
+      </input>
+      <output>
+        <itemStack oreDictionary="dustPlastic" number="4" />
+      </output>
+    </recipe>
+  </recipeGroup>
+  
+	<recipeGroup name="Tinkers">
+		<recipe name="Aluminum" energyCost="2400">
+			<input>
+				<itemStack modID="TConstruct" itemName="SearedBrick" itemMeta="5" />
+			</input>
+			<output>
+				<itemStack modID="TConstruct" itemName="materials" itemMeta="40" number="2" />
+			</output>
+		</recipe>
+		
+		<recipe name="AluminumGravel" energyCost="1400">
+			<input>
+				<itemStack modID="TConstruct" itemName="GravelOre" itemMeta="4" />
+			</input>
+			<output>
+				<itemStack modID="TConstruct" itemName="materials" itemMeta="40" number="2" />
+			</output>
+		</recipe>
+	</recipeGroup>
+	
+	<recipeGroup name="VanillaDrops">
+		<recipe name="DiamondHelmet" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_helmet" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="3" />
+			</output>
+		</recipe>
+		<recipe name="DiamondChestplate" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_chestplate" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="6" />
+			</output>
+		</recipe>
+		<recipe name="DiamondLeggings" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_leggings" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="5" />
+			</output>
+		</recipe>
+		<recipe name="DiamondBoots" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_boots" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="2" />
+			</output>
+		</recipe>
+		<recipe name="DiamondHoe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_hoe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="DiamondShovel" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_shovel" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="DiamondPickaxe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_pickaxe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="2" />
+			</output>
+		</recipe>
+		<recipe name="DiamondSword" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_sword" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="1" />
+			</output>
+		</recipe>
+		<recipe name="DiamondAxe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_axe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="1" />
+			</output>
+		</recipe>
+		<recipe name="DiamondHorseArmor" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="diamond_horse_armor" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="diamond" number="6" />
+			</output>
+		</recipe>
+		
+		<recipe name="IronHelmet" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_helmet" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="3" />
+			</output>
+		</recipe>
+		<recipe name="IronChestplate" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_chestplate" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="6" />
+			</output>
+		</recipe>
+		<recipe name="IronLeggings" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_leggings" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="5" />
+			</output>
+		</recipe>
+		<recipe name="IronBoots" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_boots" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="2" />
+			</output>
+		</recipe>
+		<recipe name="IronHoe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_hoe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="IronShovel" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_shovel" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="IronPickaxe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_pickaxe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="2" />
+			</output>
+		</recipe>
+		<recipe name="IronSword" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_sword" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="1" />
+			</output>
+		</recipe>
+		<recipe name="IronAxe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_axe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="1" />
+			</output>
+		</recipe>
+		<recipe name="IronHorseArmor" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="iron_horse_armor" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="5" number="6" />
+			</output>
+		</recipe>
+		
+		<recipe name="GoldenHelmet" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_helmet" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="3" />
+			</output>
+		</recipe>
+		<recipe name="GoldenChestplate" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_chestplate" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="6" />
+			</output>
+		</recipe>
+		<recipe name="GoldenLeggings" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_leggings" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="5" />
+			</output>
+		</recipe>
+		<recipe name="GoldenBoots" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_boots" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="2" />
+			</output>
+		</recipe>
+		<recipe name="GoldenHoe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_hoe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="GoldenShovel" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_shovel" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="GoldenPickaxe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_pickaxe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="2" />
+			</output>
+		</recipe>
+		<recipe name="GoldenSword" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_sword" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="1" />
+			</output>
+		</recipe>
+		<recipe name="GoldenAxe" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_axe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="1" />
+			</output>
+		</recipe>
+		<recipe name="GoldenHorseArmor" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="golden_horse_armor" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="IC2" itemName="itemDust" itemMeta="4" number="6" />
+			</output>
+		</recipe>
+		
+		<recipe name="LeatherHelmet" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="leather_helmet" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="leather" number="3" />
+			</output>
+		</recipe>
+		<recipe name="LeatherChestplate" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="leather_chestplate" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="leather" number="6" />
+			</output>
+		</recipe>
+		<recipe name="LeatherLeggings" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="leather_leggings" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="leather" number="5" />
+			</output>
+		</recipe>
+		<recipe name="LeatherBoots" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="leather_boots" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="leather" number="2" />
+			</output>
+		</recipe>
+		<recipe name="Saddle" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="saddle" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="minecraft" itemName="leather" number="5" />
+			</output>
+		</recipe>
+		
+		<recipe name="ChainMailHelmet" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="chainmail_helmet" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="3" />
+			</output>
+		</recipe>
+		<recipe name="ChainMailChestplate" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="chainmail_chestplate" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="6" />
+			</output>
+		</recipe>
+		<recipe name="ChainMailLeggings" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="chainmail_leggings" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="5" />
+			</output>
+		</recipe>
+		<recipe name="ChainMailBoots" energyCost="1400">
+			<input>
+				<itemStack modID="minecraft" itemName="chainmail_boots" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="2" />
+			</output>
+		</recipe>
+	</recipeGroup>
+	
+	<recipeGroup name="MekanismMobDrops">
+		<recipe name="SteelHelmet" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelHelmet" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="3" />
+			</output>
+		</recipe>
+		<recipe name="SteelChestplate" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelChestplate" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="6" />
+			</output>
+		</recipe>
+		<recipe name="SteelLeggings" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelLeggings" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="5" />
+			</output>
+		</recipe>
+		<recipe name="SteelBoots" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelBoots" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="2" />
+			</output>
+		</recipe>
+		<recipe name="SteelHoe" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelHoe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="SteelShovel" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelShovel" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" chance="0.25" />
+			</output>
+		</recipe>
+		<recipe name="SteelPickaxe" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelPickaxe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="2" />
+			</output>
+		</recipe>
+		<recipe name="SteelSword" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelSword" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="1" />
+			</output>
+		</recipe>
+		<recipe name="SteelAxe" energyCost="1400">
+			<input>
+				<itemStack modID="MekanismTools" itemName="SteelAxe" itemMeta="*" />
+			</input>
+			<output>
+				<itemStack modID="Mekanism" itemName="OtherDust" itemMeta="1" number="1" />
+			</output>
+		</recipe>
+		
+		<recipe name="GlowstoneHelmet" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneHelmet" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="3"/>      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneChestplate" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneChestplate" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="6"/>      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneLeggings" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneLeggings" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="5"/>      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneBoots" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneBoots" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="2"/>      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneHoe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneHoe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneShovel" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneShovel" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="GlowstonePickaxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstonePickaxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="2" />      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneSword" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneSword" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="1" />      
+			</output>
+		</recipe>
+		<recipe name="GlowstoneAxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="GlowstoneAxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="glowstone_dust" number="1" />      
+			</output>
+		</recipe>
+		
+		<recipe name="LapisLazuliHelmet" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliHelmet" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="3"/>      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliChestplate" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliChestplate" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="6"/>      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliLeggings" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliLeggings" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="5"/>      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliBoots" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliBoots" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="2"/>      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliHoe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliHoe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliShovel" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliShovel" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliPickaxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliPickaxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="2" />      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliSword" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliSword" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="1" />      
+			</output>
+		</recipe>
+		<recipe name="LapisLazuliAxe" energyCost="100">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="LapisLazuliAxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="minecraft" itemName="dye" itemMeta="4" number="1" />      
+			</output>
+		</recipe>
+		
+		<recipe name="ObsidianHelmet" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianHelmet" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="3"/>      
+			</output>
+		</recipe>
+		<recipe name="ObsidianChestplate" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianChestplate" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="6"/>      
+			</output>
+		</recipe>
+		<recipe name="ObsidianLeggings" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianLeggings" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="5"/>      
+			</output>
+		</recipe>
+		<recipe name="ObsidianBoots" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianBoots" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="2"/>      
+			</output>
+		</recipe>
+		<recipe name="ObsidianHoe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianHoe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="ObsidianShovel" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianShovel" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="ObsidianPickaxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianPickaxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="2" />      
+			</output>
+		</recipe>
+		<recipe name="ObsidianSword" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianSword" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="1" />      
+			</output>
+		</recipe>
+		<recipe name="ObsidianAxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="ObsidianAxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustObsidian" number="1" />      
+			</output>
+		</recipe>
+		
+		<recipe name="OsmiumHelmet" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumHelmet" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="3"/>      
+			</output>
+		</recipe>
+		<recipe name="OsmiumChestplate" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumChestplate" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="6"/>      
+			</output>
+		</recipe>
+		<recipe name="OsmiumLeggings" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumLeggings" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="5"/>      
+			</output>
+		</recipe>
+		<recipe name="OsmiumBoots" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumBoots" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="2"/>      
+			</output>
+		</recipe>
+		<recipe name="OsmiumHoe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumHoe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="OsmiumShovel" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumShovel" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="OsmiumPickaxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumPickaxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="2" />      
+			</output>
+		</recipe>
+		<recipe name="OsmiumSword" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumSword" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="1" />      
+			</output>
+		</recipe>
+		<recipe name="OsmiumAxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="OsmiumAxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack oreDictionary="dustOsmium" number="1" />      
+			</output>
+		</recipe>
+		
+		<recipe name="BronzeHelmet" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeHelmet" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="3"/>      
+			</output>
+		</recipe>
+		<recipe name="BronzeChestplate" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeChestplate" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="6"/>      
+			</output>
+		</recipe>
+		<recipe name="BronzeLeggings" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeLeggings" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="5"/>      
+			</output>
+		</recipe>
+		<recipe name="BronzeBoots" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeBoots" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="2"/>      
+			</output>
+		</recipe>
+		<recipe name="BronzeHoe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeHoe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="BronzeShovel" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeShovel" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" chance="0.25"/>      
+			</output>
+		</recipe>
+		<recipe name="BronzePickaxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzePickaxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="2" />      
+			</output>
+		</recipe>
+		<recipe name="BronzeSword" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeSword" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="1" />      
+			</output>
+		</recipe>
+		<recipe name="BronzeAxe" energyCost="1400">
+			<input>      
+				<itemStack modID="MekanismTools" itemName="BronzeAxe" itemMeta="*" />
+			</input>
+			<output>      
+				<itemStack modID="IC2" itemName="itemDust" number="1" />      
+			</output>
+		</recipe>
+	</recipeGroup>
+		
+		
+</SAGMillRecipes>

@@ -1,0 +1,15 @@
+{
+  "_name": "ProjectZulu|Core.Fox",
+  "drops": [],
+  "stats": [
+		{
+			"function": "all",
+			"functions": [
+				{
+					"function": "name",
+					"value": "What do I say?"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 12288 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2673), pid=3861, tid=140539781428992
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_45-b14) (build 1.8.0_45-b14)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.45-b02 mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fd203fac000):  JavaThread "Thread-184052" [_thread_new, id=7221, stack(0x00007fd1f7afb000,0x00007fd1f7bfc000)]
+
+Stack: [0x00007fd1f7afb000,0x00007fd1f7bfc000],  sp=0x00007fd1f7bfa920,  free space=1022k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0xaac99a]  VMError::report_and_die()+0x2ba
+V  [libjvm.so+0x4f333b]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*)+0x8b
+V  [libjvm.so+0x90e7c3]  os::Linux::commit_memory_impl(char*, unsigned long, bool)+0x103
+V  [libjvm.so+0x90e88c]  os::pd_commit_memory(char*, unsigned long, bool)+0xc
+V  [libjvm.so+0x90762a]  os::commit_memory(char*, unsigned long, bool)+0x2a
+V  [libjvm.so+0x90c87f]  os::pd_create_stack_guard_pages(char*, unsigned long)+0x7f
+V  [libjvm.so+0xa52a4e]  JavaThread::create_stack_guard_pages()+0x5e
+V  [libjvm.so+0xa5c8b4]  JavaThread::run()+0x34
+V  [libjvm.so+0x910de8]  java_start(Thread*)+0x108
+C  [libpthread.so.0+0x8182]  start_thread+0xc2
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+=>0x00007fd203fac000 JavaThread "Thread-184052" [_thread_new, id=7221, stack(0x00007fd1f7afb000,0x00007fd1f7bfc000)]
+  0x00007fd213e4c800 JavaThread "AE Compass Service" [_thread_blocked, id=4944, stack(0x00007fd1f7cfd000,0x00007fd1f7dfe000)]
+  0x00007fd213cf7000 JavaThread "Chunk I/O Executor Thread-1" daemon [_thread_blocked, id=3954, stack(0x00007fd1fc824000,0x00007fd1fc925000)]
+  0x00007fd208cec800 JavaThread "Netty IO #1" daemon [_thread_in_native, id=3950, stack(0x00007fd1fc723000,0x00007fd1fc824000)]
+  0x00007fd200022000 JavaThread "File IO Thread" [_thread_blocked, id=3942, stack(0x00007fd20426f000,0x00007fd204370000)]
+  0x00007fd213c4e000 JavaThread "ic2-poolthread-2" daemon [_thread_blocked, id=3934, stack(0x00007fd1fd125000,0x00007fd1fd226000)]
+  0x00007fd213bae000 JavaThread "PR RoutingThread #3" daemon [_thread_blocked, id=3933, stack(0x00007fd1fd426000,0x00007fd1fd527000)]
+  0x00007fd213bad000 JavaThread "PR RoutingThread #2" daemon [_thread_blocked, id=3932, stack(0x00007fd20406d000,0x00007fd20416e000)]
+  0x00007fd213bac000 JavaThread "PR RoutingThread #1" daemon [_thread_blocked, id=3931, stack(0x00007fd20416e000,0x00007fd20426f000)]
+  0x00007fd213bab000 JavaThread "PR RoutingThread #0" daemon [_thread_blocked, id=3930, stack(0x00007fd204370000,0x00007fd204471000)]
+  0x00007fd21393d800 JavaThread "Netty IO #0" daemon [_thread_in_native, id=3915, stack(0x00007fd2065f9000,0x00007fd2066fa000)]
+  0x00007fd210549800 JavaThread "ic2-poolthread-1" daemon [_thread_blocked, id=3903, stack(0x00007fd2068fa000,0x00007fd2069fb000)]
+  0x00007fd21099c000 JavaThread "Immibis Core background task" daemon [_thread_blocked, id=3885, stack(0x00007fd2061fe000,0x00007fd2062ff000)]
+  0x00007fd210001000 JavaThread "Server console handler" daemon [_thread_in_native, id=3879

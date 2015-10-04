@@ -1,0 +1,26 @@
+{
+  "_name": "Survivor",
+  "drops": [
+	  {
+			"function": "if_recently_hit",
+			"functions": [
+				{
+					"function": "add",
+					"id": "harvestcraft:chaoscookieItem",
+					"count": "1"
+				}
+			]
+		}
+	],
+  "stats": [
+		{
+			"function": "all",
+			"functions": [
+				{
+					"function": "name",
+					"value": "ChaosChunk"
+				}
+			]
+		}
+	]
+}

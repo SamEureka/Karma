@@ -1,0 +1,17 @@
+#Thu Jul 10 21:46:27 EDT 2014
+TexMinFilB=0
+shadowResMul=1.0
+tweakBlockDamage=false
+TexMagFilB=0
+handDepthMul=0.125
+oldLighting=false
+shaderPack=Chocapic13-Shaders-Mod-1.7.2.zip
+TexMinFilS=0
+renderResMul=1.0
+TexMagFilS=0
+TexMinFilN=0
+shadowClipFrustrum=true
+TexMagFilN=0
+cloudShadow=false
+normalMapEnabled=true
+specularMapEnabled=true

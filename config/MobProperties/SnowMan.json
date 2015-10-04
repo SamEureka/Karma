@@ -1,0 +1,15 @@
+{
+  "_name": "SnowMan",
+  "drops": [],
+  "stats": [
+		{
+			"function": "all",
+			"functions": [
+				{
+					"function": "name",
+					"value": "Frosty"
+				}
+			]
+		}
+	]
+}

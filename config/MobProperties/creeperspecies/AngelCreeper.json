@@ -1,0 +1,16 @@
+{
+	"_name": "creeperspecies.AngelCreeper",
+	"drops": [
+		{
+			"function": "if_recently_hit",
+			"functions": [
+				{
+					"function": "spawn",
+					"id": "Ghast",
+					"count": "1"
+				}
+			]
+		}
+	],
+	"stats": [ ]
+}

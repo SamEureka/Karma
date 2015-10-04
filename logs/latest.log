@@ -1,0 +1,12 @@
+[22:42:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2184ms behind, skipping 43 tick(s)
+[22:45:47] [Server thread/INFO]: Stopping the server
+[22:45:47] [Server thread/INFO]: Stopping server
+[22:45:47] [Server thread/INFO]: Saving players
+[22:45:47] [Server thread/INFO]: Saving worlds
+[22:45:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
+[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Dungeon
+[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium

@@ -1,0 +1,22 @@
+{
+	"_name": "ZombieChef",
+	"drops": [ ],
+	"stats": [
+		{
+			"function": "choose",
+			"count": 0.05,
+			"functions": [
+				{
+					"weight": 1,
+					"function": "name",
+					"value": "Chef Emerils"
+				},
+				{
+					"weight": 1,
+					"function": "name",
+					"value": "Chef Ramsay"
+				}
+			]
+		}
+	]
+}

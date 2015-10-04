@@ -1,0 +1,12 @@
+{
+	"_name": "EntityBustBlazeMob",
+	"drops": [ ],
+	"stats": [
+		{
+			"function": "modifier",
+			"attribute": "generic.maxHealth",
+			"value": 30,
+			"override": true
+		}
+	]
+}
