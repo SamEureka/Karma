@@ -1,247 +1,247 @@
-ProjectZulu|Core.BeetleBS
-Ghast
-ProjectZulu|Core.Gorilla
-ProjectZulu|Core.Follower
-ProjectZulu|Core.Pelican
-TwilightForest.Forest Raven
-elementalcreepers:FireCreeper
-ProjectZulu|Core.Penguin
-ProjectZulu|Core.BeetleAS
-TwilightForest.Block&Chain Goblin
-Slime
-NetherZombie
-HardcoreEnderExpansion.EnderEye
-TwilightForest.Death Tome
-ProjectZulu|Core.Alligator
-ProjectZulu|Core.SandWorm
-HardcoreEnderExpansion.Dragon
-ProjectZulu|Core.TreeEnt
-ZombieKnight
-ProjectZulu|Core.Yellow Finch
-elementalcreepers:PsychicCreeper
-Giant
-ProjectZulu|Core.Mummy Pharaoh
-VillagerGolem
-ProjectZulu|Core.Zebra
-TwilightForest.Mini Ghast
-enderzoo.FallenKnight
-elementalcreepers:WindCreeper
-HardcoreEnderExpansion.EnderGuardian
-ProjectZulu|Core.Deer
-TwilightForest.Maze Slime
-TwilightForest.Mosquito Swarm
-ZombieDwarf
-RandomThings.spirit
-TwilightForest.Yeti Boss
-HardcoreEnderExpansion.ParalyzedEnderman
-Monster
-ProjectZulu|Core.Duck
-TwilightForest.Tiny Bird
-TwilightForest.Yeti
-LavaSlime
-ProjectZulu|Core.Vulture
-Natura.FlameSpider
-HardcoreEnderExpansion.ScorchedLens
-TwilightForest.Questing Ram
-ProjectZulu|Core.Mummy
-TwilightForest.Tower Golem
-TwilightForest.Skeleton Druid
-ProjectZulu|Core.GiantRat
-betterstorage.Cluckington
-ProjectZulu|Core.PZBat
-ClayGolem
-ProjectZulu|Core.Monkey
-TwilightForest.Tower Boss
-ProjectZulu|Core.Lizard
-TwilightForest.Naga
-TwilightForest.Tower Termite
-EntityDemon
-TwilightForest.Fire Beetle
-TwilightForest.Pinch Beetle
-HardcoreEnderExpansion.InfestedBat
-BiomesOPlenty.Wasp
-elementalcreepers:EUCreeper
-ProjectZulu|Core.Horn Bill
-HardcoreEnderExpansion.EnderDemon
 BiomesOPlenty.Phantom
-NetherOres.netherOresHellfish
-Guardian
-BiomesOPlenty.Bird
-CaveSpider
-EntityBustBlazeMob
-TwilightForest.Redscale Broodling
-enderzoo.FallenMount
-TwilightForest.Hydra
-TwilightForest.Twilight Lich
-ProjectZulu|Core.Giraffe
-OpenBlocks.MiniMe
-ProjectZulu|Core.Fox
-Blizz
-ProjectZulu|Core.Skeletonn
-Creeper
-ProjectZulu|Core.Horse
-ProjectZulu|Core.Beaver
-TwilightForest.Tower Ghast
-elementalcreepers:WaterCreeper
-ProjectZulu|Core.Minotaur
-ProjectZulu|Core.BloomDoom
-Mekanism.Robit
-HardcoreEnderExpansion.BabyEnderman
-TwilightForest.Snow Queen
-HardcoreEnderExpansion.Louse
-elementalcreepers:SolarCreeper
-ProjectZulu|Core.Blue Finch
-OpenBlocks.Luggage
-ZombieKing
-Natura.FlameSpiderBaby
-Mekanism.BabySkeleton
-TwilightForest.Loyal Zombie
-Survivor
-elementalcreepers:ReverseCreeper
-ProjectZulu|Core.Ostrich
-MineFactoryReloaded.mfrEntityPinkSlime
-TwilightForest.Apocalypse Cube
-Skeleton
-chisel.snowman
-TwilightForest.Twilight Wraith
-elementalcreepers:IllusionCreeper
-HardcoreEnderExpansion.FireFiend
-elementalcreepers:MagmaCreeper
-TwilightForest.SnowGuardian
 Enderman
-DiscoZombie
-Squid
-EntityBustEnderman
-TwilightForest.Lich Minion
-TwilightForest.Mist Wolf
-ZombieMiner
-Blaze
-Botania.botania:pinkWither
-TwilightForest.Redcap
-EnderDragon
-TwilightForest.Bighorn Sheep
-Botania.botania:doppleganger
-ProjectZulu|Core.Goat
-TwilightForest.Wild Boar
-TwilightForest.Minotaur
-EntityBustSpiderMob
-TwilightForest.Helmet Crab
-enderzoo.ConcussionCreeper
-enderzoo.WitherWitch
-MushroomCow
 TwilightForest.Unstable Ice Core
+TwilightForest.Twilight Lich
+HardcoreEnderExpansion.FireFiend
 elementalcreepers:FriendlyCreeper
-BiomesOPlenty.Rosester
-elementalcreepers:HydrogenCreeper
-ProjectZulu|Core.Mimic
-TConstruct.Crystal
-Natura.Imp
-Sheep
-Ozelot
-elementalcreepers:SpringCreeper
-ProjectZulu|Core.Mammoth
-TwilightForest.Armored Giant
-TwilightForest.Troll
-Pig
-ProjectZulu|Core.Frog
-TwilightForest.Hedge Spider
-EntityBustZombieMob
-Bat
-ProjectZulu|Core.Eagle
-ProjectZulu|Core.Black Bear
-TwilightForest.Hostile Wolf
-TwilightForest.Knight Phantom
-Spider
-TwilightForest.Twilight Kobold
-EntityBustHellDog
-betterstorage.Frienderman
-ProjectZulu|Core.Green Finch
-Natura.NitroCreeper
-PigZombie
-TwilightForest.Upper Goblin Knight
-Enderman
-HardcoreEnderExpansion.FireGolem
-elementalcreepers:LightCreeper
-TwilightForest.Redcap Sapper
-ProjectZulu|Core.Boar
-HardcoreEnderExpansion.VampireBat
-elementalcreepers:DarkCreeper
-HardcoreEnderExpansion.ForestGhost
-Chicken
-TConstruct.EdibleSlime
-HardcoreEnderExpansion.AngryEnderman
-HardcoreEnderExpansion.HomelandEnderman
-ProjectZulu|Core.Rabbit
-TConstruct.KingSlime
-ZombiePa
-Silverfish
-TwilightForest.Glacier Penguin
-EntitySandWitch
-Botania.botania:pixie
-ProjectZulu|Core.Rhino
-ProjectZulu|Core.Crow
-ZombieChef
-ProjectZulu|Core.Centipede
-TwilightForest.King Spider
-elementalcreepers:EarthCreeper
-ProjectZulu|Core.Brown Bear
-TwilightForest.HydraHead
-Witch
-SnowMan
-elementalcreepers:RFCreeper
-elementalcreepers:CookieCreeper
-HardcoreEnderExpansion.Endermage
-elementalcreepers:StoneCreeper
-TwilightForest.Minoshroom
-TwilightForest.Firefly
-TwilightForest.Slime Beetle
-ProjectZulu|Core.Armadillo
-HardcoreEnderExpansion.HauntedMiner
-ProjectZulu|Core.Polar Bear
-Wolf
-TwilightForest.Lower Goblin Knight
-elementalcreepers:IceCreeper
-ZombieCyborg
-elementalcreepers:BigBadCreep
-DraconicEvolution.EnderDragon
-Cow
-EntityBustSkeletonMob
-ProjectZulu|Core.Camel
-elementalcreepers:GhostCreeper
-ProjectZulu|Core.RipperFin
-enderzoo.Enderminy
-TwilightForest.Wild Deer
-WitherBoss
-TwilightForest.Forest Bunny
-BiomesOPlenty.Pixie
-TwilightForest.Ice Crystal
-ZombieHerobrine
-BiomesOPlenty.JungleSpider
-EntityBustWitch
-TwilightForest.Stable Ice Core
-TwilightForest.Giant Miner
-ZombiePirate
-TwilightForest.Adherent
-elementalcreepers:SpiderCreeper
-elementalcreepers:ElectricCreeper
-ProjectZulu|Core.Red Finch
-TwilightForest.WinterWolf
-TwilightForest.Forest Squirrel
-enderzoo.WitherCat
-ZombieNotch
-Villager
-elementalcreepers:FireworkCreeper
-TwilightForest.Swarm Spider
-ZombieCreeper
-elementalcreepers:EnderCreeper
-BiomesOPlenty.Glob
-ProjectZulu|Core.Elephant
-EntityHorse
-ProjectZulu|Core.Haunted Armor
-Forestry.butterflyGE
+HardcoreEnderExpansion.ParalyzedEnderman
 EntityBustPigZombie
-Zombie
-elementalcreepers:CakeCreeper
+ProjectZulu|Core.Centipede
+Natura.FlameSpiderBaby
+HardcoreEnderExpansion.FireGolem
+Sheep
+ProjectZulu|Core.BeetleBS
+TwilightForest.Maze Slime
+Ozelot
+ProjectZulu|Core.Horn Bill
+NetherOres.netherOresHellfish
+Mekanism.Robit
+TwilightForest.Redscale Broodling
+ProjectZulu|Core.Eagle
+EntityBustWitch
+Wolf
 Mob
+Natura.NitroCreeper
+SnowMan
+TwilightForest.Bighorn Sheep
+ProjectZulu|Core.Alligator
+OpenBlocks.Luggage
+TwilightForest.Minotaur
+BiomesOPlenty.Glob
+TwilightForest.Yeti
+Blizz
+TwilightForest.SnowGuardian
+ZombieDwarf
+HardcoreEnderExpansion.InfestedBat
+elementalcreepers:SpiderCreeper
+EntityBustSkeletonMob
+elementalcreepers:IllusionCreeper
+ProjectZulu|Core.Lizard
+ProjectZulu|Core.Rabbit
+ProjectZulu|Core.Crow
+elementalcreepers:SpringCreeper
+Villager
+ZombieCreeper
+ProjectZulu|Core.Armadillo
+ProjectZulu|Core.Yellow Finch
+elementalcreepers:CakeCreeper
+BiomesOPlenty.Bird
+ProjectZulu|Core.Rhino
+OpenBlocks.MiniMe
+Skeleton
+TwilightForest.Twilight Kobold
+ProjectZulu|Core.Beaver
+Blaze
+Giant
+VillagerGolem
+TwilightForest.Tiny Bird
+ZombieCyborg
+Mekanism.BabySkeleton
+ProjectZulu|Core.Elephant
+elementalcreepers:HydrogenCreeper
+BiomesOPlenty.Wasp
+HardcoreEnderExpansion.EnderGuardian
+TwilightForest.Naga
+ProjectZulu|Core.Gorilla
+elementalcreepers:ReverseCreeper
+HardcoreEnderExpansion.Endermage
+NetherZombie
+Ghast
+LavaSlime
+ProjectZulu|Core.PZBat
+Pig
+TConstruct.Crystal
+ProjectZulu|Core.Red Finch
+HardcoreEnderExpansion.EnderDemon
+EntityBustSpiderMob
+HardcoreEnderExpansion.AngryEnderman
+RandomThings.spirit
+HardcoreEnderExpansion.VampireBat
+elementalcreepers:ElectricCreeper
+ProjectZulu|Core.Minotaur
+TwilightForest.Upper Goblin Knight
+EntityBustHellDog
+HardcoreEnderExpansion.HomelandEnderman
+ZombieKnight
+TwilightForest.Adherent
+Spider
+elementalcreepers:LightCreeper
+Survivor
+HardcoreEnderExpansion.ForestGhost
+TwilightForest.Stable Ice Core
+TwilightForest.Tower Golem
+elementalcreepers:WindCreeper
+ProjectZulu|Core.Follower
+Natura.Imp
+Enderman
+enderzoo.WitherCat
+TwilightForest.Skeleton Druid
+elementalcreepers:GhostCreeper
+elementalcreepers:IceCreeper
+EntityBustZombieMob
+BiomesOPlenty.JungleSpider
+Botania.botania:pixie
+Creeper
+enderzoo.WitherWitch
+HardcoreEnderExpansion.EnderEye
+TwilightForest.Mosquito Swarm
+ProjectZulu|Core.TreeEnt
+DiscoZombie
+elementalcreepers:EUCreeper
+ZombieHerobrine
+ProjectZulu|Core.Black Bear
+Guardian
+Botania.botania:doppleganger
+TConstruct.KingSlime
+Bat
+TwilightForest.WinterWolf
+ProjectZulu|Core.Frog
+betterstorage.Cluckington
+TwilightForest.Questing Ram
+TwilightForest.Redcap Sapper
+betterstorage.Frienderman
+TwilightForest.King Spider
+ProjectZulu|Core.Camel
+ZombieKing
+DraconicEvolution.EnderDragon
+elementalcreepers:WaterCreeper
+Witch
+Slime
+ProjectZulu|Core.Brown Bear
+ProjectZulu|Core.Monkey
+ProjectZulu|Core.Skeletonn
+WitherBoss
+TwilightForest.Forest Raven
+TwilightForest.Slime Beetle
+TwilightForest.Forest Squirrel
 enderzoo.DireWolf
+EntitySandWitch
+elementalcreepers:SolarCreeper
+TwilightForest.Tower Boss
+ZombieMiner
+TwilightForest.Armored Giant
+ProjectZulu|Core.RipperFin
+ProjectZulu|Core.Giraffe
+ProjectZulu|Core.GiantRat
+ProjectZulu|Core.Pelican
+enderzoo.ConcussionCreeper
+HardcoreEnderExpansion.Louse
+ProjectZulu|Core.Duck
+TwilightForest.Hostile Wolf
+TwilightForest.Hydra
+enderzoo.Enderminy
+ZombiePirate
+TwilightForest.Mini Ghast
+Chicken
+TwilightForest.Loyal Zombie
+Cow
+TwilightForest.Hedge Spider
+TwilightForest.Tower Termite
+TwilightForest.Block&Chain Goblin
+elementalcreepers:EnderCreeper
+BiomesOPlenty.Pixie
+ProjectZulu|Core.BeetleAS
+TwilightForest.Troll
+elementalcreepers:PsychicCreeper
+ProjectZulu|Core.BloomDoom
+CaveSpider
+TwilightForest.Mist Wolf
+ZombiePa
+TwilightForest.Pinch Beetle
+elementalcreepers:MagmaCreeper
+TwilightForest.Giant Miner
+ZombieChef
+ProjectZulu|Core.Deer
+MushroomCow
+TwilightForest.Fire Beetle
+elementalcreepers:StoneCreeper
+TwilightForest.Yeti Boss
+Botania.botania:pinkWither
+elementalcreepers:FireCreeper
+ProjectZulu|Core.Fox
+chisel.snowman
+EntityBustEnderman
+HardcoreEnderExpansion.BabyEnderman
+EntityHorse
+ProjectZulu|Core.Mammoth
+Forestry.butterflyGE
+EntityDemon
+TwilightForest.Forest Bunny
+ProjectZulu|Core.Boar
+ProjectZulu|Core.Green Finch
+ProjectZulu|Core.SandWorm
+TwilightForest.Redcap
+ProjectZulu|Core.Ostrich
+Natura.FlameSpider
+TwilightForest.Apocalypse Cube
+EntityBustBlazeMob
+ProjectZulu|Core.Mummy
+enderzoo.FallenKnight
+TwilightForest.Twilight Wraith
+TwilightForest.Wild Boar
+HardcoreEnderExpansion.HauntedMiner
+TwilightForest.Lower Goblin Knight
+ClayGolem
+TConstruct.EdibleSlime
+Squid
+TwilightForest.Ice Crystal
+EnderDragon
+Silverfish
+ProjectZulu|Core.Goat
+ProjectZulu|Core.Blue Finch
+TwilightForest.Snow Queen
+elementalcreepers:BigBadCreep
+ProjectZulu|Core.Zebra
+HardcoreEnderExpansion.Dragon
 EntityBustCaveSpider
+TwilightForest.Swarm Spider
+ProjectZulu|Core.Horse
+TwilightForest.Minoshroom
+TwilightForest.Helmet Crab
+elementalcreepers:DarkCreeper
+ProjectZulu|Core.Mummy Pharaoh
+Zombie
+elementalcreepers:CookieCreeper
+ProjectZulu|Core.Penguin
+Monster
+TwilightForest.Firefly
+ProjectZulu|Core.Mimic
+elementalcreepers:FireworkCreeper
+enderzoo.FallenMount
+HardcoreEnderExpansion.ScorchedLens
+TwilightForest.Glacier Penguin
+TwilightForest.Death Tome
+ProjectZulu|Core.Vulture
+BiomesOPlenty.Rosester
+TwilightForest.Knight Phantom
+elementalcreepers:RFCreeper
+elementalcreepers:EarthCreeper
+ZombieNotch
+TwilightForest.HydraHead
+TwilightForest.Lich Minion
+TwilightForest.Tower Ghast
+ProjectZulu|Core.Haunted Armor
+MineFactoryReloaded.mfrEntityPinkSlime
+TwilightForest.Wild Deer
+PigZombie
+ProjectZulu|Core.Polar Bear

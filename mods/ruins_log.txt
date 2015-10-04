@@ -9,12 +9,12 @@ java.lang.Exception: Rule [0,100,chisel:chisel.fenceIron-2] in template house-03
 	at atomicstryker.ruins.common.FileHandler.access$200(FileHandler.java:19)
 	at atomicstryker.ruins.common.FileHandler$LoaderThread.run(FileHandler.java:113)
 
-Loading excluded list from: /home/ubuntu/Karma/world/DIM-112
+Loading excluded list from: /home/ubuntu/Karma/world/DIM34
 No exclusions found for this world.
 
-Loading options from: /home/ubuntu/Karma/world/DIM-112
+Loading options from: /home/ubuntu/Karma/world/DIM34
 tries_per_chunk_normal = 6
 chance_to_spawn_normal = 10.0
 templateInstancesMinDistance = 256.0
 anyRuinsMinDistance = 64.0
-Ruins mod loaded successfully for world ./world/DIM-112, template files: 48
+Ruins mod loaded successfully for world ./world/DIM34, template files: 48

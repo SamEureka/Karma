@@ -1,12 +1,26 @@
-[22:42:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2184ms behind, skipping 43 tick(s)
-[22:45:47] [Server thread/INFO]: Stopping the server
-[22:45:47] [Server thread/INFO]: Stopping server
-[22:45:47] [Server thread/INFO]: Saving players
-[22:45:47] [Server thread/INFO]: Saving worlds
-[22:45:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
-[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
-[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
-[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/Dungeon
-[22:45:48] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
+[06:16:41] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[06:17:30] [Server thread/INFO]: Loading properties
+[06:17:30] [Server thread/INFO]: Default game type: SURVIVAL
+[06:17:30] [Server thread/INFO]: Generating keypair
+[06:17:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:17:54] [Server thread/INFO]: Preparing level "world"
+[06:17:56] [Server thread/INFO]: Preparing start region for level 0
+[06:17:57] [Server thread/INFO]: Preparing spawn area: 54%
+[06:17:57] [Server thread/INFO]: Done (3.654s)! For help, type "help" or "?"
+[06:20:11] [User Authenticator #1/INFO]: UUID of player SamEureka is 863a1852-109f-4675-b4a6-cd49e645b8e1
+[06:20:12] [Server thread/INFO]: SamEureka[/70.160.134.172:55808] logged in with entity id 954 at (-310.8880384552005, 67.0, 159.40289366911628)
+[06:20:12] [Server thread/INFO]: SamEureka joined the game
+[06:20:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4224ms behind, skipping 84 tick(s)
+[06:22:31] [Server thread/INFO]: SamEureka lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[06:22:31] [Server thread/INFO]: SamEureka left the game
+[06:23:24] [Server thread/INFO]: Stopping the server
+[06:23:24] [Server thread/INFO]: Stopping server
+[06:23:24] [Server thread/INFO]: Saving players
+[06:23:24] [Server thread/INFO]: Saving worlds
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/Twilight Forest
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/SpectreWorld
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/Underdark
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/Dungeon
+[06:23:24] [Server thread/INFO]: Saving chunks for level 'world'/The Last Millenium
